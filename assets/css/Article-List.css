@@ -71,3 +71,43 @@
   opacity:1;
 }
 
+.img-rounded.img-responsive {
+  width:100%;
+}
+
+h1, .h1 {
+  text-align:center;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  text-align:center;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  text-align:center;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  text-align:center;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  text-align:center;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  text-align:center;
+}
+
+.container {
+  text-align:center;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  background-image:url(../../assets/img/city_bg.jpg);
+}
+
+#retail-jumbotron {
+  background-image:url(../../assets/img/city_bg.jpg);
+}
+
