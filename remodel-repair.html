@@ -7,8 +7,13 @@
     <title>Titus County Pools</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Petit+Formal+Script">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tillana">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/user.css">
@@ -24,7 +29,10 @@
     <link rel="stylesheet" href="assets/css/header2.css">
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Image_center.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button1.css">
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
@@ -44,13 +52,6 @@
                     <li class="active" role="presentation"><a href="remodel-repair.html">Remodel &amp; Repair</a></li>
                     <li role="presentation"><a href="service.html">Service </a></li>
                     <li role="presentation"><a href="retail.html">Retail </a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li role="presentation"><a href="#">First Item</a></li>
-                            <li role="presentation"><a href="#">Second Item</a></li>
-                            <li role="presentation"><a href="#">Third Item</a></li>
-                        </ul>
-                    </li>
                 </ul>
                 <p class="navbar-text navbar-right actions"> <a class="btn btn-default action-button" role="button" href="#" style="background-color:#225188;">Free estimate</a></p>
             </div>
@@ -62,19 +63,21 @@
         <div class="container"></div>
     </div>
     <div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" style="background-color:#225188;color:#ffffff;">
                     <h1 style="margin-top:25px;margin-bottom:25px;">Pool Remodel &amp; Repair</h1></div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p class="text-center" style="margin-top:10px;font-size:18px;padding-bottom:10px;margin-right:10px;margin-left:10px;">Over time, swimming pools can become worn out and in need of repair. We provide repair &amp; replacement services on <strong>pool equipment, electrical systems, decking, plaster, automated controllers</strong> and much more. If you
-                        feel like your backyard is in need of a outdoor face-lift, we encourage you to give us a call and schedule a free estimate so that you can take your next step towards refreshing your backyard landscape.</p>
+                    <h1>Remodel </h1>
+                    <p class="text-center" style="margin-top:10px;font-size:18px;padding-bottom:10px;margin-right:10px;margin-left:10px;"> We specialize in Remodel &amp; Renovation Services to boost your backyard performance into the new generation of pool automated controllers or asthetic appearance. Now-a-days, it's standard for pools to be built with <strong>LED Lighting, iPhone Controls, In-Floor Cleaning Systems, Robotic Cleaners and Travertine Decking</strong>.
+                        At Titus County Pools and Spas, we provide a one-stop shop for all backyard Renovation Services.</p>
                 </div>
                 <div class="col-md-6">
-                    <p class="text-center" style="margin-top:10px;font-size:18px;padding-bottom:10px;margin-right:10px;margin-left:10px;">We also specialize in Remodel &amp; Renovation Services to boost your backyard performance into the new generation of pool automated controllers or asthetic appearance. Now-a-days, it's standard for pools to be built with <strong>LED Lighting, iPhone Controls, In-Floor Cleaning Systems, Robotic Cleaners and Travertine Decking</strong>.
-                        At Titus County Pools and Spas, we provide a one-stop shop for all backyard Renovation Services.</p>
+                    <h1>Repair </h1>
+                    <p class="text-center" style="margin-top:10px;font-size:18px;padding-bottom:10px;margin-right:10px;margin-left:10px;"> Over time, swimming pools can become worn out and in need of repair. We provide repair &amp; replacement services on <strong>pool equipment, electrical systems, decking, plaster, automated controllers</strong> and much more. If you
+                        feel like your backyard is in need of a outdoor face-lift, we encourage you to give us a call and schedule a free estimate so that you can take your next step towards refreshing your backyard landscape.</p>
                 </div>
             </div>
         </div>
@@ -102,34 +105,28 @@
             </div>
             <div class="row features">
                 <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><img src="assets/img/pavers.jpg" class="center" style="margin-bottom:35px;width:150px;height:130px;">
-                        <h3 class="name">Decks &amp; Pavers</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div data-bs-hover-animate="pulse" id="box-11" class="box" style="height:362px;">
+                        <h3 class="name" style="color:#ffffff;padding-top:150px;">Decks &amp; Pavers</h3></div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><img src="assets/img/kitchen.jpg" class="center" style="margin-bottom:35px;width:150px;height:130px;">
-                        <h3 class="name">Outdoor Kitchens</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div data-bs-hover-animate="pulse" id="box-31" class="box" style="height:362px;">
+                        <h3 class="name" style="color:#ffffff;padding-top:150px;">Outdoor Kitchens</h3></div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><img src="assets/img/firepit.jpg" class="center" style="margin-bottom:35px;width:150px;height:130px;">
-                        <h3 class="name">Fire Pits</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div data-bs-hover-animate="pulse" id="box-21" class="box" style="height:362px;padding-top:41px;">
+                        <h3 class="name" style="color:#ffffff;padding-top:150px;">Fire Pits</h3></div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><img src="assets/img/outdoor-lighting.jpg" class="center" style="margin-bottom:35px;width:150px;height:130px;">
-                        <h3 class="name">Lighting &amp; Landscaping</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div data-bs-hover-animate="pulse" id="box-411" class="box" style="height:362px;">
+                        <h3 class="name" style="color:#ffffff;padding-top:150px;">Outdoor Lighting</h3></div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><img src="assets/img/replaster.jpeg" class="center" style="margin-bottom:35px;width:150px;height:130px;">
-                        <h3 class="name">Re-Plaster </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div data-bs-hover-animate="pulse" id="box-511" class="box" style="height:362px;">
+                        <h3 class="name" style="color:#ffffff;padding-top:150px;">Re-Plaster </h3></div>
                 </div>
                 <div class="col-md-4 col-sm-6 item">
-                    <div class="box"><img src="assets/img/fence.jpeg" class="center" style="margin-bottom:35px;width:150px;height:130px;">
-                        <h3 class="name">Fencing </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div data-bs-hover-animate="pulse" id="box-611" class="box" style="height:362px;padding-top:41px;">
+                        <h3 class="name" style="color:#ffffff;padding-top:150px;">Fencing </h3></div>
                 </div>
             </div>
         </div>
@@ -194,6 +191,9 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 </body>
 
 </html>

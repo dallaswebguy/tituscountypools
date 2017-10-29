@@ -104,10 +104,64 @@ h1, .h1 {
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
-  background-image:url(../../assets/img/city_bg.jpg);
+  background-image:url(city_bg.jpg);
 }
 
 #retail-jumbotron {
-  background-image:url(../../assets/img/city_bg.jpg);
+  background-image:url(city_bg.jpg);
+}
+
+.text-center {
+}
+
+#box-4 {
+  background-image:url(../../assets/img/outdoor-lighting.jpg);
+  background-size:293px 362px;
+}
+
+#box-5 {
+  background-image:url(../../assets/img/replaster.jpeg);
+  background-size:293px 362px;
+}
+
+#box-6 {
+  background-image:url(../../assets/img/fence.jpeg);
+  background-size:239px 362px;
+}
+
+#box-31 {
+  background-image:url(../../assets/img/kitchen.jpg);
+  background-size:360px 362px;
+}
+
+#box-21 {
+  background-image:url(../../assets/img/firepit.jpg);
+  background-size:360px 362px;
+  background-image:360px 362px;
+}
+
+#box-11 {
+  background-image:url(../../assets/img/pavers.jpg);
+  background-image:360px 362px;
+  background-size:360px 362px;
+}
+
+#box-411 {
+  background-image:url(../../assets/img/outdoor-lighting.jpg);
+  background-size:360px 362px;
+}
+
+#box-511 {
+  background-image:url(../../assets/img/replaster.jpeg);
+  background-size:360px 362px;
+}
+
+#box-611 {
+  background-image:url(../../assets/img/fence.jpeg);
+  background-size:360px 362px;
+}
+
+#retail-jumbotron-1 {
+  background-image:url(../../assets/img/dive-839313_1920.jpg);
 }
 
